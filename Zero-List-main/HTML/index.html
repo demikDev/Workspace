@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="C:\xampp\htdocs\Zero-List-main\CSS\style.css">
+  <link rel="icon" href="C:\xampp\htdocs\Zero-List-main\miweb\logo.ico">
+
+  <title>Iniciar Sesion</title>
+
+</head>
+<header>
+
+  <img src="C:\xampp\htdocs\Zero-List-main\miweb\img.ico" alt="">
+  <h1> Zero-List </h1>
+  
+</header>
+<body>
+
+  <section class="container">
+
+    <article>
+
+      <h3 class="caed_title"> Iniciar Sesion </h3>
+
+      <form action="/PHP/login.php" method="post">
+
+        <input type="text" name="username" placeholder="Usuario" required>
+        <input type="password" name="password" placeholder="Contraseña" required>
+        <input type="submit" value="Ingresar">
+        <button onclick="window.location.href='registro.html'">Registrarse</button>
+
+      </form>
+
+    </article>
+
+  </section>  
+
+</body>
+</html>
